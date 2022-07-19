@@ -6,7 +6,7 @@ session_start();
 //mengecek username pada session
 if( !isset($_SESSION['username']) ){
   $_SESSION['msg'] = 'anda harus login untuk mengakses halaman ini';
-  header('Location: account/login.php');
+  header('Location: login.php');
 }
 
 ?>
@@ -24,19 +24,19 @@ if( !isset($_SESSION['username']) ){
 	<div class="menu">
 		<ul>
 			<li><a href="index.php">Home</a></li>
-			<li><a href="petimati/petimati.html">PeTiMaTi</a></li>
+			<li><a href="petimati.html">PeTiMaTi</a></li>
 			<li class="dropdown"><a href="#">Content</a>
 				<ul class="isi-dropdown">
-					<li><a href="gunung/gunung.html">Gunung</a></li>
-					<li><a href="pantai/pantai.html">Pantai</a></li>
-					<li><a href="kuliner/kuliner.html">Kuliner</a></li>
+					<li><a href="gunung.html">Gunung</a></li>
+					<li><a href="pantai.html">Pantai</a></li>
+					<li><a href="kuliner.html">Kuliner</a></li>
 				</ul>
 			</li>
 			<li class="dropdown"><a href="#">Account</a>
 				<ul class="isi-dropdown">
-					<li><a href="account/login.php">Log-In</a></li>
-					<li><a href="account/signup.php">Sign-Up</a></li>
-					<li><a href="account/logout.php">Log-Out</a></li>
+					<li><a href="login.php">Log-In</a></li>
+					<li><a href="signup.php">Sign-Up</a></li>
+					<li><a href="logout.php">Log-Out</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -53,7 +53,7 @@ if( !isset($_SESSION['username']) ){
 	</div>
 	
 	<div class="footer">
-		<p class="copyright"><a href="../home/index.php">&copy; Gila Travel</a></p>
+		<p class="copyright"><a href="index.php">&copy; Gila Travel</a></p>
 	</div>
 
 	<script></script>
