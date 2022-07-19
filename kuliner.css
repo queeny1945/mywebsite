@@ -1,0 +1,146 @@
+
+
+/*meine styles*/
+body {
+	margin: 0px;
+	background-color: skyblue;
+	margin-top: -39px;
+	position: static;
+}
+
+/*headers styles*/
+.header {
+	height: 300px;
+	margin: auto;
+	color: whitesmoke;
+	text-align: center;
+	text-shadow: 3px 2px 1px black;
+	background: url(../img/pantai2.jpg);
+	background-size: cover;
+	background-position: 0px;
+}
+.header .judul h1 {
+	width: auto;
+	font-size: 58px;
+	padding: 100px;
+}
+.header .judul p {
+	font: 22px/24px solid arial, sans-serif;
+}
+
+
+/*menu styles*/
+	.menu{
+		background-color: #3141ff;
+	}
+ 
+	.menu ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+ 
+	.menu > ul > li {
+		float: left;
+	}
+ 
+	
+	.menu li a {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+ 
+	.menu li a:hover{
+		background-color: #2525ff;
+	}
+ 
+	li.dropdown {
+		display: inline-block;
+	}
+ 
+	.dropdown:hover .isi-dropdown {
+		display: block;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #fff !important;
+	}
+ 
+	.isi-dropdown {
+		position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		background-color: #f9f9f9;
+	}
+ 
+	.isi-dropdown a {
+		color: #3c3c3c !important;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #232323 !important;
+		background: #f3f3f3 !important;
+	}
+
+/*content styles*/
+.conten {
+	width: 920px;
+	position: center;
+	padding-left: 210px;
+}
+
+.conten .satu {
+	padding: 30px;
+	box-shadow: 0 0 3px 3px rgba(0, 0, 0, .3);
+	border-radius: 5px;
+	background-color: whitesmoke;
+	margin: 50px 1px 20px 40px;
+}
+
+.conten .satu .p1 {
+	text-align: center;
+	font-style: italic;
+}
+
+.conten .satu .p2 {
+	text-align: center;
+	font-style: italic;
+}
+
+.conten .satu h2 {
+	color: darkcyan;
+	font: 30px solid arial, sans-serif;
+}
+.conten .satu img {
+	height: 400px;
+	width: 600px;
+}
+
+.conten .satu p {
+	text-align: justify;
+	font: 20px solid arial;
+}
+
+
+/*footer styles*/
+.footer {
+	height: 70px;
+	width: 1350px;
+	margin-top: 40px;
+	background-color: blue;
+}
+.footer .copyright {
+	color: darkcyan;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 30px;
+}
+.footer .copyright a {
+	text-decoration: none;
+	color: whitesmoke;
+}

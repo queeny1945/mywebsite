@@ -1,0 +1,13 @@
+
+body {
+	background: url(img/home.jpg);
+	background-size: cover;
+}
+
+.container {
+	font: 25px time news rowman;
+	width: 900px;
+	margin-left: 200px;
+	margin-top: 200px;
+	background-color: whitesmoke;
+}
