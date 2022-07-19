@@ -15,7 +15,7 @@ body {
 	color: whitesmoke;
 	text-align: center;
 	text-shadow: 3px 2px 1px black;
-	background: url(../img/gunung.png);
+	background: url(gunung.png);
 	background-size: cover;
 	background-position: 0px;
 }
