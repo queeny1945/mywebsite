@@ -1,6 +1,6 @@
 <?php
 //menyertakan file program koneksi.php pada register
-require('../koneksi.php');
+require('koneksi.php');
 //inisialisasi session
 session_start();
  
@@ -8,7 +8,7 @@ $error = '';
 $validate = '';
  
 //mengecek apakah sesssion username tersedia atau tidak jika tersedia maka akan diredirect ke halaman index
-if( isset($_SESSION['username']) ) header('Location: ../index.php');
+if( isset($_SESSION['username']) ) header('Location: index.php');
  
 //mengecek apakah form disubmit atau tidak
 if( isset($_POST['submit']) ){
@@ -35,7 +35,7 @@ if( isset($_POST['submit']) ){
                 if(password_verify($password, $hash)){
                     $_SESSION['username'] = $username;
                 
-                    header('Location: ../index.php');
+                    header('Location: index.php');
                 }
                              
             //jika gagal maka akan menampilkan pesan error
